@@ -9,9 +9,9 @@ pipeline {
         CI = 'true'
     }
     stages {
-        stage('Build') {
+        stage('Build') {https://github.com/freebootcamp/simple-node-js-react-npm-app/blob/master/jenkins/Jenkinsfile
             steps {
-                sh 'echo "$USER"'
+                sh 'whoami'
             }
         }
     }
